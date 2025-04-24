@@ -1,5 +1,5 @@
 
-# 🛒 My-SaaS-App – Proiect 2.0
+# 🛒 My-SaaS-App – Proiect 2.0.1
 
 **Platformă SaaS personalizabilă pentru magazine online**, dezvoltată de la zero. Fiecare abonat poate crea și gestiona propriul magazin online cu funcționalități complete.
 
