@@ -1,6 +1,6 @@
 <?php
 
-namespace app\controllers\stores;
+namespace App\Controllers\Stores;
 
 use core\Controller;
 use app\models\Product;
