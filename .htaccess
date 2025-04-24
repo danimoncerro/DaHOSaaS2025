@@ -1,0 +1,13 @@
+# Asigură-te că modulul rewrite este activat
+# RewriteEngine On
+
+# Redirecționează toate cererile HTTP către HTTPS
+# RewriteCond %{HTTPS} off
+# RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteEngine On
+#RewriteBase /my-saas-app/
+RewriteBase /ShopOnline/saas1/my-saas-app/public/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]

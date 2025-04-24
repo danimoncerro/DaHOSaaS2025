@@ -1,0 +1,3 @@
+Tarzan a fost un actor de origine romana.
+cd c:\xampp\htdocs\ShopOnline\saas1\
+mkdir saas_platformCopiaza de rog din chat toate conversatiile si toate randuri integrale si complete si adauga-le in fisierul text2.txt

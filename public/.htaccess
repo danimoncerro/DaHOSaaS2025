@@ -1,0 +1,13 @@
+# Activare mod_rewrite
+RewriteEngine On
+
+# Setează calea corectă a aplicației
+RewriteBase /ShopOnline/saas1/my-saas-app/public/
+
+# Ignoră fișierele și directoarele existente
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteRule ^ - [L]
+
+# Redirecționează toate celelalte cereri către index.php
+RewriteRule ^(.*)$ index.php?url=$1 [L,QSA]
